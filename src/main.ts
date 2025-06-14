@@ -1,7 +1,7 @@
 const input = document.getElementById("searchInput") as HTMLInputElement;
 const submitButton = document.getElementById("submit-button") as HTMLElement;
 const searchResult = document.getElementById("searchResult") as HTMLElement;
-const warningMessg = document.getElementById("warningMessg");
+// const warningMessg = document.getElementById("warningMessg");
 
 const apiKey = "at_BFPk0ALZKZHwKkjXIAZ6fv3EIiOEG";
 
