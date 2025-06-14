@@ -58,9 +58,7 @@ async function mapSearch(ip: string) {
     // searchResult.appendChild(timezone);
     // searchResult.appendChild(isp);
   } catch (error) {
-    searchResult.innerHTML = `<p style="color:red;">Please enter a valid IP address${
-      (error as Error).message
-    }</p>`;
+    searchResult.innerHTML = `<p style="color:red;">Please enter a valid IP address</p>`;
   }
 }
 submitButton.addEventListener("click", (e) => {
